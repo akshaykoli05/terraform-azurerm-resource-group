@@ -1,6 +1,7 @@
 variable "name" {
   description = "Resource Group name."
   type        = string
+  deafult     = "RG01"
 }
 
 variable "location" {
