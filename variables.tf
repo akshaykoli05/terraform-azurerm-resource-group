@@ -6,6 +6,7 @@ variable "name" {
 variable "location" {
   description = "Azure location (e.g., eastus, centralindia)."
   type        = string
+  default     = "East US"
 }
 
 variable "tags" {
